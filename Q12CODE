@@ -1,6 +1,5 @@
 def prit(n, isPrime):
-    isPrime[0] = False
-    isPrime[1] = False
+    isPrime[0] = isPrime[1] = False
     for i in range(2,n):
         isPrime[i] = True
     for p in range(2,n+1):
